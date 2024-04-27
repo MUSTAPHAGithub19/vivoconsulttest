@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vivoconsutl</title>
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <header>
+        <a href="index.html" class="logo"><img src="images/logo2.png" alt=""></a>
+        <nav class="navigation">
+            <a href="index.html" class="active">ACCUEIL</a>
+            <a href="services.html">SERVICES</a>
+            <a href="about.html">NOTRE ENTREPRISE</a>
+            <a href="contact.html">CONTACT</a>
+        </nav>
+    </header>
+    <section class="main">
+        <h1>Expertise pour l'Agriculture <br> <span>Partageons notre savoir-faire agricole</span></h1>
+        <img src="images/sun_flower.png">
+        <div class="circles">
+            <div class="circle active" data-theme="1"></div>
+            <div class="circle" data-theme="2"></div>
+            <div class="circle" data-theme="3"></div>
+        </div>
+        <div class="theme-switcher">
+            <button id="left-btn"><i class="fa-solid fa-chevron-left"></i></button>
+            <button id="right-btn"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </section>
+    <section class="about-section">
+        <div class="content">
+            <div class="about-image">
+                <img src="images/about-img.jpg" alt="">
+            </div>
+            <div class="about-text">
+                <h3>Qui sommes-nous?</h3>
+                <span class="about-description">Découvrez notre passion et engagement pour une agriculture durable</span>
+                <p>
+                    <span class="bold-vivo">Vivo Consult</span> est un cabinet de conseil, de formation et
+                    d'etudes nee d'une idee noble incarnant
+                    la volonte de son equipe a partager, avec les operateurs du
+                    secteur agricole son expertise
+                    et son savoir-faire.
+                </p>
+                <a href="about.html" class="about-btn">En savoir plus</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="partenaire-section">
+        <div class="content-partenaire">
+            <div class="title">
+                <h3>
+                    Nos Partenaires
+                </h3>
+            </div>
+            <div class="partenaire-logos">
+                <div class="p-logo"><img src="images/cgem.png" alt=""></div>
+                <div class="p-logo"><img src="images/agrivivos.png" alt=""></div>
+                <div class="p-logo"><img src="images/jci.png" alt=""></div>
+                <div class="p-logo"><img src="images/heec.png" alt=""></div>
+                <div class="p-logo"><img src="images/encg-m.png" alt=""></div>
+                <div class="p-logo"><img src="images/pme.png" alt=""></div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-contact">
+            <div class="footer-content">
+                <div class="contactez-nous">
+                    <h3>
+                        Contactez-nous
+                    </h3>
+                    <span class="contactez-nous-descreption">Envoie nous un message</span>
+                    <input type="text" id="full-name" placeholder="nom et prénom" class="full-name-input">
+                    <input type="email" id="mail" placeholder="votre email" class="email-input">
+                    <textarea id="message-send" rows="4" cols="50"placeholder="votre message" class="message-input"></textarea>
+                    <a href="#" class="send-btn">envoyer</a>
+                </div>
+                <div class="site-plan">
+                    <h3>
+                        plan du site
+                    </h3>
+                    <span class="plan-descreption">toute nos pages</span>
+                    <nav class="site-plan-liks">
+                        <a href="index.html" class="active">-ACCUEIL</a>
+                        <a href="services.html">-SERVICES</a>
+                        <a href="about.html">-NOTRE ENTREPRISE</a>
+                        <a href="contact.html">-CONTACT</a>
+                    </nav>
+                </div>
+                <div class="footer-logo">
+                    <div class="footer-logo-image">
+                        <img src="images/logo.png" alt="">
+                    </div>
+                    <div class="footer-contact-info">
+                        <div class="phone-number-box">
+                            <i class="fa-solid fa-phone"></i>
+                            <span class="phone-number-nb">+212 528302940</span>
+                        </div>
+                        <div class="gmail-box">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span class="email-txt">contact.vivoconsult<br>@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="copyright-text">
+                <span>Copyright 2024 All right reserved vivoconsult</span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
